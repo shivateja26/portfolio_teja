@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 import tailwindScrollbar from 'tailwind-scrollbar';
 export default {
-  content: [],
+  content: [
+    './index.html', // Your main HTML file
+    './src/**/*.{js,jsx,ts,tsx}',
+  ],
   theme: {
     extend: {
       fontFamily:{
