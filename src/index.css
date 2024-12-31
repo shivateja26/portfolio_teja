@@ -9,6 +9,10 @@ html{
 body{
   @apply bg-zinc-900 text-zinc-50 h-[200vh]
 }
+/* typography */
+.headline-1{
+  @apply text-5xl leading-tight font-semibold
+}
 /* UTILITIES */
 .material-symbols-rounded{
   @apply w-[1em] h-[1em] overflow-hidden;
@@ -16,7 +20,14 @@ body{
 }
 
 .container{
-  @apply px-4 mx-auto
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl
+}
+
+.image-box{
+  @apply bg-zinc-700 overflow-hidden
+}
+.img-cover{
+  @apply w-full h-full object-cover
 }
 /*-----------------components----------------*/
  /*menu button-header */
