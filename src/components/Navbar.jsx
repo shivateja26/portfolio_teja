@@ -1,52 +1,59 @@
 import PropTypes from "prop-types";
-import { useRef } from "react";
+import { useState } from "react";
 
 const Navbar = ({ navOpen }) => {
-  const lastActiveLink = useRef();
-  const activeBox = useRef();
-
+  const [activeLink, setActiveLink] = useState('home'); 
   const navItems = [
     {
       label: 'Home',
       link: '#home',
-      className: 'nav-link active',
-      ref: lastActiveLink
+      className: 'nav-link',
+      id: 'home'
     },
     {
       label: 'About',
       link: '#about',
-      className: 'nav-link'
+      className: 'nav-link',
+      id: 'about'
     },
     {
       label: 'Work',
       link: '#work',
-      className: 'nav-link'
+      className: 'nav-link',
+      id: 'work'
     },
     {
       label: 'Reviews',
       link: '#reviews',
-      className: 'nav-link'
+      className: 'nav-link',
+      id: 'reviews'
     },
     {
       label: 'Contact',
       link: '#contact',
-      className: 'nav-link md:hidden'
+      className: 'nav-link md:hidden',
+      id: 'contact'
     }
   ];
 
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   return (
     <nav className={`navbar ${navOpen ? 'active' : ''}`}>
-      {navItems.map(({ label, link, className, ref }, key) => (
+      {navItems.map(({ label, link }, key) => (
         <a
           href={link}
           key={key}
-          ref={ref}
-          className={className}
+          className={`nav-link ${activeLink === link ? 'active' : ''}`}
+          onClick={() => handleLinkClick(link)}
         >
           {label}
         </a>
       ))}
-      <div className="active-box" ref={activeBox}></div>
+      <div className="active-box"></div>
     </nav>
   );
 };
