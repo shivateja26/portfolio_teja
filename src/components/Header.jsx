@@ -22,9 +22,13 @@ const Header = () => {
           </button>
           <Navbar navOpen={navOpen} />
         </div>
-        <a href="#contact" className="btn btn-secondary max-md:hidden md:justify-self-end">
-          Contact Me
-        </a>
+        <a 
+  href="mailto:shivateja.amalakanti@gmail.com?subject=Contact%20Request&body=Hello%2C%20I%20am%20interested%20in%20learning%20more%20about%20your%20services." 
+  className="btn btn-secondary max-md:hidden md:justify-self-end"
+>
+  Contact Me
+</a>
+
       </div>
     </header>
   );
