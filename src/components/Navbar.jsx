@@ -23,10 +23,10 @@ const Navbar = ({ navOpen }) => {
       id: 'work'
     },
     {
-      label: 'Reviews',
-      link: '#reviews',
+      label: 'Skills',
+      link: '#skills',
       className: 'nav-link',
-      id: 'reviews'
+      id: 'skills'
     },
     {
       label: 'Contact',
