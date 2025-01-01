@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Footer from "./components/Footer";
+import Project from "./components/Project";
 
 const App =()=>{
   return (
@@ -13,7 +14,7 @@ const App =()=>{
       <Hero/>
       <About />
       <Skill />
-      
+      <Project />
     </main>
     <Footer />
     </>

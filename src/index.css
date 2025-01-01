@@ -99,3 +99,13 @@ body{
 .btn-outline{
   @apply h-11 bg-zinc-900 hover:bg-zinc-700 active:bg-zinc-800
 }
+/* Hide horizontal scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
