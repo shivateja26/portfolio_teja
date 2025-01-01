@@ -37,14 +37,14 @@ const Project = () => {
   const scrollRight = () => {
     if (carouselRef.current) {
       carouselRef.current.scrollBy({
-        left: 250, // Adjust this value based on the card width
+        left: 250, 
         behavior: "smooth"
       });
     }
   };
 
   return (
-    <section id="section" className="section py-20 bg-zinc-900">
+    <section id="project" className="section py-20 bg-zinc-900">
       <div className="container relative">
         <h2 className="headline-2 text-center mb-12 text-white">My Projects</h2>
 
