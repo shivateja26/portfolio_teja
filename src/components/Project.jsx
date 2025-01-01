@@ -4,14 +4,14 @@ const Project = () => {
   const projects = [
     { title: "Portfolio", description: "Built with React, Vite, and Tailwind CSS, my portfolio features dynamic components, fast performance, and a responsive, modern design that adapts seamlessly across devices.", link: "https://github.com/shivateja26/portfolio_teja" },
     { title: "TodoList", description: "users can add, mark as complete, and delete tasks. It uses React's useState for state management and event handlers to update the task list dynamically.", link: "https://github.com/shivateja26/todolist" },
-    { title: "Project 3", description: "An innovative project with cutting-edge technology.", link: "#" },
-    { title: "Project 4", description: "A creative solution to a common issue.", link: "#" },
-    { title: "Project 5", description: "An e-commerce platform with unique features.", link: "#" },
-    { title: "Project 6", description: "A mobile app that enhances user engagement.", link: "#" },
-    { title: "Project 7", description: "A platform to connect people in new ways.", link: "#" },
-    { title: "Project 8", description: "A service that simplifies everyday tasks.", link: "#" },
-    { title: "Project 9", description: "A highly customizable web app for different use cases.", link: "#" },
-    { title: "Project 10", description: "An educational platform for modern learners.", link: "#" }
+    { title: "Project", description: "An innovative project with cutting-edge technology.", link: "#" },
+    { title: "Project", description: "A creative solution to a common issue.", link: "#" },
+    { title: "Project", description: "An e-commerce platform with unique features.", link: "#" },
+    { title: "Project", description: "A mobile app that enhances user engagement.", link: "#" },
+    { title: "Project", description: "A platform to connect people in new ways.", link: "#" },
+    { title: "Project", description: "A service that simplifies everyday tasks.", link: "#" },
+    { title: "Project", description: "A highly customizable web app for different use cases.", link: "#" },
+    { title: "Project", description: "An educational platform for modern learners.", link: "#" }
   ];
 
   const [isScrolling, setIsScrolling] = useState(true);
