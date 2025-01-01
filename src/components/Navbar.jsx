@@ -17,17 +17,18 @@ const Navbar = ({ navOpen }) => {
       id: 'about'
     },
     {
-      label: 'Projects',
-      link: '#project',
-      className: 'nav-link',
-      id: 'project'
-    },
-    {
       label: 'Skills',
       link: '#skills',
       className: 'nav-link',
       id: 'skills'
     },
+    {
+      label: 'Projects',
+      link: '#project',
+      className: 'nav-link',
+      id: 'project'
+    },
+   
     {
       label: 'Contact',
       link: '#contact',
