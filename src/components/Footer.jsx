@@ -44,7 +44,7 @@ const socials = [
 
 const Footer = () => {
     return (
-        <footer className="section">
+        <footer id="contact" className="section">
             <div className="container">
                 <div className="lg:grid lg:grid-cols-2">
                     <div className=" mb-10">
