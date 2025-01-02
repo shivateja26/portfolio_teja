@@ -20,11 +20,11 @@ const skillItem = [
       label: 'JavaScript',
       desc: 'Interaction'
     },
-    // {
-    //   imgSrc: '/images/nodejs.svg',
-    //   label: 'NodeJS',
-    //   desc: 'Web Server'
-    // },
+    {
+      imgSrc: '/images/nodejs.svg',
+      label: 'NodeJS',
+      desc: 'Web Server'
+    },
     // {
     //   imgSrc: '/images/expressjs.svg',
     //   label: 'ExpressJS',
