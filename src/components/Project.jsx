@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 const Project = () => {
   const projects = [
     { title: "Portfolio", description: "Built with React, Vite, and Tailwind CSS, my portfolio features dynamic components, fast performance, and a responsive, modern design that adapts seamlessly across devices.", link: "https://github.com/shivateja26/portfolio_teja" },
-    { title: "Authentication-Mern", description: "Features : Email Verificaion,Password Recovery,Verification Email,Forgotpassword,Login And logout" },
+    { title: "Authentication-Mern", description: "Features : Email Verificaion,Password Recovery,Verification Email,Forgotpassword,Login And logout",link:"https://github.com/shivateja26/Authentication_mern.git" },
     { title: "Weather App", description: "Weather App with React JS and OpenWeatherMap API .", link: "https://github.com/shivateja26/weather_app" },
     { title: "TodoList", description: "users can add, mark as complete, and delete tasks. It uses React's useState for state management and event handlers to update the task list dynamically.", link: "https://github.com/shivateja26/todolist" },
     { title: "Travelling", description: "A travel website built with React.js, offering destination exploration, trip bookings, and local attractions with a seamless, interactive experience.", link: "https://github.com/shivateja26/tourism" },
