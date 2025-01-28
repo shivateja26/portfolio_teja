@@ -68,10 +68,11 @@ const Project = () => {
             >
               <h3 className="text-xl font-semibold">{project.title}</h3>
               <p className="mt-2 text-gray-300">{project.description}</p>
-              <a href={project.link} className="text-sky-400 mt-4 inline-block flex items-center gap-2">
-                Git Hub
-                <span className="material-symbols-rounded">link</span>
-              </a>
+              <a href={project.link} className="text-sky-400 mt-4 inline-block items-center gap-2">
+  Git Hub
+  <span className="material-symbols-rounded">link</span>
+</a>
+
             </div>
           ))}
         </div>

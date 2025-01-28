@@ -30,7 +30,7 @@ const socials = [
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/amalakanti-shiva-teja-ba3856184'
+      href: 'https://www.linkedin.com/in/shiva-teja-amalakanti-ba3856184/'
     },
     {
       label: 'Twitter X',
